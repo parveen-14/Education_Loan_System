@@ -1,0 +1,7 @@
+package com.educationloan.document.globalExceptionHandling.CustomException;
+
+public class S3UploadException extends RuntimeException {
+    public S3UploadException(String message) {
+        super(message);
+    }
+}
